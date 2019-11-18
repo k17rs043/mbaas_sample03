@@ -46,7 +46,7 @@
         $("#display").html("delete fail:" + JSON.stringify(error));
       })
     }
-    function deleteData() {
+function deleteData() {
       UTdata.fetch()
       .then(function(uTdata){
       return uTdata.delete();
